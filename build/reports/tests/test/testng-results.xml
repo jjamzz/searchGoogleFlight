@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting beforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[beforeSuite done]]>
+    </line>
+    <line>
+      <![CDATA[Starting test]]>
+    </line>
+    <line>
+      <![CDATA[Round trip flight search]]>
+    </line>
+    <line>
+      <![CDATA[Test done]]>
+    </line>
+    <line>
+      <![CDATA[Starting teardown]]>
+    </line>
+    <line>
+      <![CDATA[Before suite done]]>
+    </line>
+    <line>
+      <![CDATA[---Done---]]>
+    </line>
+    <line>
+      <![CDATA[teardown done]]>
+    </line>
+    <line>
+      <![CDATA[cleanup done]]>
+    </line>
+  </reporter-output>
+  <suite name="Gradle suite" duration-ms="42027" started-at="2018-12-06T03:11:19Z" finished-at="2018-12-06T03:12:01Z">
+    <groups>
+      <group name="flight">
+        <method signature="SearchFlight.testFights()[pri:0, instance:SearchFlight@c599151]" name="testFights" class="SearchFlight"/>
+      </group> <!-- flight -->
+    </groups>
+    <test name="Gradle test" duration-ms="42027" started-at="2018-12-06T03:11:19Z" finished-at="2018-12-06T03:12:01Z">
+      <class name="SearchFlight">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:SearchFlight@c599151]" name="beforeSuite" is-config="true" duration-ms="1770" started-at="2018-12-05T22:11:17Z" finished-at="2018-12-05T22:11:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting beforeSuite]]>
+            </line>
+            <line>
+              <![CDATA[beforeSuite done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testFights()[pri:0, instance:SearchFlight@c599151]" name="testFights" duration-ms="37843" started-at="2018-12-05T22:11:19Z" finished-at="2018-12-05T22:11:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test]]>
+            </line>
+            <line>
+              <![CDATA[Round trip flight search]]>
+            </line>
+            <line>
+              <![CDATA[Test done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFights -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchFlight@c599151]" name="tearDown" is-config="true" duration-ms="4175" started-at="2018-12-05T22:11:57Z" finished-at="2018-12-05T22:12:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting teardown]]>
+            </line>
+            <line>
+              <![CDATA[Before suite done]]>
+            </line>
+            <line>
+              <![CDATA[---Done---]]>
+            </line>
+            <line>
+              <![CDATA[teardown done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:SearchFlight@c599151]" name="cleanUp" is-config="true" duration-ms="2" started-at="2018-12-05T22:12:01Z" finished-at="2018-12-05T22:12:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[cleanup done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- SearchFlight -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>
