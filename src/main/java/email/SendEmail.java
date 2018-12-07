@@ -25,7 +25,7 @@ public class SendEmail {
         MimeMessageHelper mailMsg = new MimeMessageHelper(mimeMessage, true);
         mailMsg.setFrom(prop.getProperty("emailSender"));
         mailMsg.setTo(System.getProperty("emailRecipient"));
-//        mailMsg.addBcc("jjamzz@hotmail.com");
+        mailMsg.addBcc("jjamzz@hotmail.com");
         mailMsg.setSubject("Flight Search Result: " + System.getProperty("origin") + " - " + System.getProperty("destination"));
         mailMsg.setText("Results for " + System.getProperty("departureDate") + " - " + System.getProperty("returnDate"));
         LocalDate localDate = LocalDate.now();
