@@ -46,7 +46,7 @@ public class GoogleFlightsPageObjects extends baseClass.Setup {
     @FindBy(xpath = "//*[@id=\"flt-modaldialog\"]/div/div[5]/g-raised-button/div/jsl")
     public WebElement doneDateSelector;
 
-    @FindBy(xpath = "//*[@id=\"flt-pax-button\"]/div/jsl[1]")
+    @FindBy(xpath = "//*[@id=\"flt-pax-button\"]")
     public WebElement numberOfPassengers;
 
     @FindBy(xpath = "//*[@id=\"flt-modaldialog\"]/div/div/div[1]/div/div[3]/div[1]")
