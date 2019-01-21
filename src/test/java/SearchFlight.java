@@ -48,7 +48,6 @@ public class SearchFlight extends Setup {
         FileUtils.copyFile(sourceFile, new File(tmpdir + "/" + fileName));
 
         // Call the main() method of sendEmail
-        Reporter.log("Before suite done", true);
         String[] arguments = new String[]{""};
         SendEmail.main(arguments);
         driver.quit();

@@ -13,25 +13,25 @@ public class GoogleFlightsPageObjects extends baseClass.Setup {
     }
 
 
-    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div[1]/div[1]/dropdown-menu/div/div[1]/span[1]")
+    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div/div[1]/div[1]/dropdown-menu/div/div[1]/span[1]")
     public WebElement tripOption;
 
-    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div[1]/div[1]/dropdown-menu/div/div[2]/menu-item[2]/span")
+    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div/div[1]/div[1]/dropdown-menu/div/div[2]/menu-item[2]")
     public WebElement oneWay;
 
-    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[3]")
+    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div/div[2]/div[1]/div[2]")
     public WebElement originTextBox;
 
     @FindBy(xpath = "//*[@id=\"sb_ifc50\"]/input")
     public WebElement originInputBox;
 
-    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div[2]/div[3]/div[3]")
+    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div/div[2]/div[3]/div[2]")
     public WebElement destinationTextBox;
 
     @FindBy(xpath = "//*[@id=\"sb_ifc50\"]/input")
     public WebElement destinationInputBox;
 
-    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div[2]/div[5]/div[1]/div[3]")
+    @FindBy(xpath = "//*[@id=\"flt-app\"]/div[2]/main[1]/div[4]/div[1]/div[2]/div/div[2]/div[5]/div[1]/div[2]")
     public WebElement departureDateTextBox;
 
     @FindBy(xpath = "//*[@id=\"flt-modaldialog\"]/div/div[4]/div[2]/div[1]/date-input/input")
