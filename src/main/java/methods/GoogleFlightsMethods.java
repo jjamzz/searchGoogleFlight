@@ -111,7 +111,7 @@ public class GoogleFlightsMethods extends baseClass.Setup {
         Thread.sleep(1500);
         clickDonePassengerSelector();
         Thread.sleep(10000);
-//        js.executeScript("window.scrollBy(0,200)");
+        js.executeScript("window.scrollBy(0,200)");
         Thread.sleep(5000);
         Reporter.log("Test done", true);
     }
@@ -132,7 +132,7 @@ public class GoogleFlightsMethods extends baseClass.Setup {
         Thread.sleep(1500);
         clickDonePassengerSelector();
         Thread.sleep(10000);
-//        js.executeScript("window.scrollBy(0,200)");
+        js.executeScript("window.scrollBy(0,200)");
         Thread.sleep(5000);
         Reporter.log("Test done", true);
     }
