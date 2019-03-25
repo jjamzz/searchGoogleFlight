@@ -45,8 +45,8 @@ test {
 
         if (env == "local") {
             systemProperties["env"] = "/Users/jsantiago/repositories/searchGoogleFlight/src/main/resources/webdriver/chromedriver"
-        } else if (env == "EC2") {
-            systemProperties["env"] = "C:\\Users\\Administrator\\Documents\\repos\\src\\main\\resources\\webdriver\\chromedriver.exe"
+        } else if (env == "Skytap") {
+            systemProperties["env"] = "C:\\Users\\LevelUp\\Documents\\webdriver\\chromedriver.exe"
         } else {
             systemProperties["env"] = "/Users/automation/JamesTesting/chromedriver"
         }
